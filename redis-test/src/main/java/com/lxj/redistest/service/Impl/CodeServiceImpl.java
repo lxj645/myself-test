@@ -37,6 +37,7 @@ public class CodeServiceImpl implements CodeService {
         else
         {
             stringRedisTemplate.opsForValue().increment(countKey);
+            //modify
         }
 
         //写入redis
